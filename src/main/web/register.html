@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <link rel="stylesheet" type="text/css" href="css/regist.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <article>
+            <h1><em>枝江</em><span>档案管理</span></h1>
+            <div class="main">
+                <form action="/RegisterServlet" method="post">
+                    <div class="username">
+                        <label>
+                            <input type="text" name="username" placeholder="账号">
+                        </label>
+                    </div>
+                    <div class="password">
+                        <label>
+                            <input type="text" name="password" placeholder="密码">
+                        </label>
+                    </div>
+                    <div class="role">
+                        <label>
+                            <select name="role">
+                                <option value ="browser" selected="selected">浏览者</option>
+                                <option value ="operator">操作员</option>
+                                <option value="admin">管理员</option>
+                            </select>
+                        </label>
+                    </div>
+                    <button>注册</button>
+                </form>
+            </div>
+        </article>
+        <footer>
+            <ul>
+                <li><a href="https://space.bilibili.com/703007996/?spm_id_from=333.999.0.0">联系我们</a></li>
+                <li><a href="https://space.bilibili.com/672328094?from=search&seid=14151647597361107078&spm_id_from=333.337.0.0">关于我们</a></li>
+                <li><a href="https://space.bilibili.com/672342685/?spm_id_from=333.999.0.0">人才招聘</a></li>
+                <li><a href="https://space.bilibili.com/351609538/?spm_id_from=333.999.0.0">友情链接</a></li>
+                <li><a href="https://space.bilibili.com/672353429/?spm_id_from=333.999.0.0">公司地址</a></li>
+                <li><a href="https://space.bilibili.com/672346917/?spm_id_from=333.999.0.0">关注我们</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
